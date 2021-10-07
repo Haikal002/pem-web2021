@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, initial-scale=1.0">
+    <title></title>
+    <style>
+        form {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+    </style>
+</head>
+<body>
+    <form  action="proses.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend style="text-align: center;"><b>FORMULIR PPDB JALUR ZONASI TAHU 2020</b></legend>
+            <legend><b>INFO PENDAFTARAN</b></legend>
+            <p>
+                <label>NISN :</label>
+                <input type="text"  maxlength="10" name="nisn" placeholder="Masukan NISN" required/>
+            </p>
+            <p>
+                <label>Asal Sekolah :</label>
+                <input type="text" name="asalsekolah" required/>
+            </p>
+            <p>
+                <label>Tahun Lulusan :</label>
+                <input type="text" name="tahunlulusan" required/>
+            </p>
+            <p>
+                <label>Ijazah :  <small><i>(lampirkan foto copy ijazah)</i></small></label>
+                <input type="file" accept="image/*" name="asalsekolah" required/>
+            </p>
+            <legend><b>DATA CALON PESERTA</b></legend>
+            <p>
+                <label>Nama Lengkap :</label>
+                <input type="text" size="50" name="namalengkap" placeholder="Masukan Nama Lengkap" required/>
+            </p>
+            <p>
+                <label>NIK :</label>
+                <input type="text" maxlength="16" size="13" name="nik" placeholder="Masukan NIK"  required/>
+            </p>
+            <p>
+                <label>Jenis Kelamin :</label>
+                <input type="radio" name="jeniskelamin" value="1" required/>Laki Laki
+                <input type="radio" name="jeniskelamin" value="1" required/>Perempuan
+            </p>
+            <p>
+                <label>Alamat :</label>
+                <textarea  name="alamat" placeholder="Alamat" value="alamat" required ></textarea>
+            </p>
+            <p>
+                <label>Desa/Kel. :</label>
+                <input type="text" name="desa/kel" placeholder="desa/kel" required/>
+            </p>
+            <p>
+                <label>Kecamatan :</label>
+                <input type="text" name="kecamatan" placeholder="kecamatan" required/>
+            </p>
+            <p>
+                <label>Kabupaten :</label>
+                <input type="text" name="Kabupaten" placeholder="kabupaten" required/>
+            </p>
+            <p>
+                <label>Provinsi :</label>
+                <input type="text" name="provinsi" placeholder="Provinsi" required/>
+            </p>
+            <p>
+                <label>Email Aktif :</label>
+                <input type="email" name="email" placeholder="email" required/>
+            </p>
+            <legend><b>DATA ORANG TUA</b></legend>
+            <p>
+                <label>Kartu Keluarga :  <small><i>(lampirkan KK)</i></small></label>
+                <input type="file" accept="image/*" name="kartukeluarga" required/>
+            </p>
+            <p>
+                <label>Nomor Kartu Keluarga :</label>
+                <input type="text" name="no.KK" placeholder="No.KK" required/>
+            </p>
+            <p>
+                <label>Nama Ayah Kandung :</label>
+                <input type="text" name="namaayahkandung" placeholder="Nama Ayah Kandung" required/>
+            </p>
+            <p>
+                <label>Agama :</label>
+                <input type="text" name="agamaayah" placeholder="Agama" required/>
+            </p>
+            <p>
+                <label>Pekerjaan :</label>
+                <input type="text" name="pekerjaanayah" placeholder="Pekerjaan" required/>
+            </p>
+            <p>
+                <label>Nama Ibu Kandung :</label>
+                <input type="text" name="namaibukandung" placeholder="Nama Ibu Kandung" required/>
+            </p>
+            <p>
+                <label>Agama :</label>
+                <input type="text" name="agamaibu" placeholder="Agama" required/>
+            </p>
+            <p>
+                <label>Pekerjaan :</label>
+                <input type="text" name="pekerjaanibu" placeholder="Pekerjaan" required/>
+            </p>
+            <p>
+                <label>Alamat Orang Tua :</label>
+                <textarea  name="alamatorangtua" placeholder="Alamat" value="alamat" required ></textarea>
+            </p>
+            <p>
+                <label>Desa/Kel.:</label>
+                <input type="text" name="desa/kel" placeholder="Desa/Kel." required/>
+            </p>
+            <p>
+                <label>Kecamatan :</label>
+                <input type="text" name="kecamatan" placeholder="Kecamatan" required/>
+            </p>
+            <p>
+                <label>Kabupaten :</label>
+                <input type="text" name="kabupaten" placeholder="Kabupaten" required/>
+            </p>
+            <p>
+                <label>Provinsi :</label>
+                <input type="text" name="provinsi" placeholder="Provinsi" required/>
+            </p>
+                
+                <input type='submit' name='tombol' value='UPLOAD' />
+            
+        </fieldset>
+  </form>
+    
+</body>
+</html>
