@@ -1,0 +1,540 @@
+WEBVTT
+Kind: captions
+Language: id
+
+00:00:00.050 --> 00:00:08.090
+Jika Anda ingin mempelajari pengembangan web, dari
+mana Anda memulainya?  Sulit untuk menemukan
+
+00:00:08.090 --> 00:00:13.910
+saran yang tepat tanpa mengalami kelebihan informasi.
+Itu sebabnya saya membuat peta jalan pemula ini!
+
+00:00:13.910 --> 00:00:19.220
+ini menjabarkan semua dasar-dasar yang Anda butuhkan untuk mempelajari
+pengembangan web, kita akan melalui setiap
+
+00:00:19.220 --> 00:00:23.360
+langkah sehingga pada akhir panduan ini Anda akan memiliki
+pemahaman tentang dasar-dasar pengembangan web dan
+
+00:00:23.360 --> 00:00:32.570
+keterampilan apa yang perlu Anda pelajari. Saya sarankan untuk melakukannya
+langkah 1 2 &amp; 3 secara berurutan, tergantung apakah
+
+00:00:32.570 --> 00:00:39.290
+Anda ingin lebih fokus pada front-end atau back-end
+Anda dapat melakukan langkah 4A atau 4B.  Menurut saya pribadi
+
+00:00:39.290 --> 00:00:43.070
+sebaiknya developer web front-end untuk
+mempelajari setidaknya sedikit back-end dan
+
+00:00:43.070 --> 00:00:46.910
+sebaliknya mengetahui dasar-dasar keduanya akan membantu
+Anda mengetahui apakah Anda menyukai pengembangan web front-end atau back-end
+
+00:00:46.910 --> 00:00:54.890
+suara yang lebih baik  baik, mari kita gali lebih
+dalam&nbsp; peta jalan sebelum Anda masuk ke pengkodean yang sebenarnya
+
+00:00:54.890 --> 00:01:00.080
+Anda perlu memahami beberapa konsep umum
+saat Anda memulai perjalanan Anda ke pengembangan web cara
+
+00:01:00.080 --> 00:01:07.700
+kerja situs web perbedaan antara front-end dan
+back-end dan menggunakan editor kode semua situs web  di
+
+00:01:07.700 --> 00:01:12.440
+yang paling dasar hanyalah sekumpulan file yang
+disimpan di komputer yang disebut server, server
+
+00:01:12.440 --> 00:01:17.450
+ini&nbsp;&nbsp; terhubung ke Internet, lalu Anda dapat memuat
+situs web tersebut melalui browser seperti Chrome Firefox
+
+00:01:17.450 --> 00:01:23.000
+atau Safari di komputer atau ponsel
+Anda&nbsp; browser Anda  juga memanggil klien dalam
+
+00:01:23.000 --> 00:01:29.390
+situasi&nbsp;&nbsp; ini sehingga setiap kali Anda berada di Internet
+Anda klien memuat data dari server
+
+00:01:29.390 --> 00:01:34.310
+serta mengirimkan data kembali ke server ini
+bolak-balik antara klien  t dan server
+
+00:01:34.310 --> 00:01:41.990
+adalah dasar dari peran developer web internet
+biasanya terbagi dalam tiga kategori front end
+
+00:01:41.990 --> 00:01:48.890
+back end dan full stack istilah front end back
+end dan full stack developer web menjelaskan
+
+00:01:48.890 --> 00:01:53.590
+bagian&nbsp;&nbsp; dari hubungan klien-server yang sedang Anda
+kerjakan  dengan fernand berarti Anda berurusan
+
+00:01:53.590 --> 00:01:57.880
+terutama dengan sisi klien yang disebut front
+end karena itu yang dapat Anda lihat di browser
+
+00:01:57.880 --> 00:02:03.370
+sebaliknya bagian belakang adalah bagian dari situs web
+yang tidak dapat Anda lihat tetapi banyak ditangani
+
+00:02:03.370 --> 00:02:09.040
+dari&nbsp;&nbsp; logika dan fungsi yang diperlukan
+untuk&nbsp; segala sesuatu bekerja satu cara yang dapat Anda pikirkan
+
+00:02:09.040 --> 00:02:13.420
+ini adalah pengembangan web front-end seperti
+bagian depan rumah sebuah restoran, ini adalah
+
+00:02:13.420 --> 00:02:18.730
+bagian tempat pelanggan datang untuk melihat dan
+merasakan&nbsp; restoran  dekorasi interior tempat duduk dan
+
+00:02:18.730 --> 00:02:23.920
+tentu saja memakan makanan di sisi lain pengembangan web back-end
+seperti bagian belakang rumah bagian
+
+00:02:23.920 --> 00:02:28.900
+dari restoran tempat pengiriman dan
+inventaris dikelola dan halaman  proses untuk membuat makanan semua
+
+00:02:28.900 --> 00:02:33.220
+terjadi ada banyak hal di balik layar
+yang tidak akan dilihat oleh pelanggan yang akan mereka alami
+
+00:02:33.220 --> 00:02:39.520
+dan semoga menikmati produk akhir
+ilustrasi makan yang lezat dan menyenangkan selain pengembangan web front-end dan
+
+00:02:39.520 --> 00:02:45.490
+back-end melayani berbeda tetapi
+fungsi yang sangat penting saat Anda membuat situs web
+
+00:02:45.490 --> 00:02:50.980
+alat yang paling penting yang akan Anda gunakan adalah
+editor kode atau lingkungan pengembangan terintegrasi IDE
+
+00:02:50.980 --> 00:02:56.080
+alat ini memungkinkan Anda untuk menulis markup dan kode
+yang akan membentuk situs web Ada cukup
+
+00:02:56.080 --> 00:03:02.170
+banyak opsi bagus di luar  ada tetapi saat ini
+editor kode yang paling populer adalah vs kode vs kode adalah versi yang lebih
+
+00:03:02.170 --> 00:03:08.830
+ringan dari IDE utama Visual Studio Microsoft
+, cepat, gratis, mudah digunakan dan Anda dapat
+
+00:03:08.830 --> 00:03:14.800
+menyesuaikannya dengan tema dan ekstensi.
+Editor kode lainnya adalah teks luhur Adam dan vim jika
+
+00:03:14.800 --> 00:03:19.120
+Anda  baru saja memulai, saya sarankan untuk
+memeriksa kode vs yang dapat Anda unduh dari
+
+00:03:19.120 --> 00:03:24.310
+situs web mereka sekarang karena kami telah membahas beberapa
+konsep yang lebih luas  ts tentang apa itu pengembangan web, mari
+
+00:03:24.310 --> 00:03:29.980
+masuk ke detail lebih lanjut dimulai dengan
+ujung depan ujung depan situs web terdiri
+
+00:03:29.980 --> 00:03:38.470
+dari&nbsp;&nbsp; tiga jenis file HTML CSS dan JavaScript
+file-file ini adalah apa yang dimuat di browser di
+
+00:03:38.470 --> 00:03:45.010
+sisi klien  HTML atau bahasa markup hypertext
+adalah dasar dari semua situs web. Ini adalah
+
+00:03:45.010 --> 00:03:50.290
+jenis file utama yang dimuat di browser Anda saat Anda
+melihat situs web. File HTML berisi semua
+
+00:03:50.290 --> 00:03:56.200
+konten di halaman dan menggunakan tag untuk menunjukkan
+berbagai jenis konten untuk  contoh Anda dapat menggunakan
+
+00:03:56.200 --> 00:04:07.890
+tag untuk membuat judul judul, paragraf, berpoin,
+daftar gambar, dan seterusnya, tag HTML sendiri
+
+00:04:07.890 --> 00:04:12.030
+memiliki beberapa Gaya yang dilampirkan tetapi cukup
+mendasar seperti apa yang akan Anda lihat di dokumen Word
+
+00:04:12.030 --> 00:04:19.980
+CSS atau lembar gaya berjenjang memungkinkan Anda menata gaya
+konten HTML agar terlihat bagus dan mewah Anda dapat
+
+00:04:19.980 --> 00:04:26.100
+menambahkan warna font khusus dan menata elemen
+situs web Anda sesuai keinginan
+
+00:04:26.100 --> 00:04:33.180
+Anda&nbsp;&nbsp; Anda bahkan dapat membuat animasi dan bentuk dengan
+CSS t  Berikut ini adalah kedalaman CSS dan terkadang
+
+00:04:33.180 --> 00:04:38.340
+orang cenderung mengabaikannya sehingga mereka dapat
+beralih&nbsp; ke hal-hal seperti JavaScript namun sangat
+
+00:04:38.340 --> 00:04:45.480
+penting untuk dapat mengubah desain menjadi
+tata letak situs web front-end menggunakan CSS javascript
+
+00:04:45.480 --> 00:04:49.950
+adalah bahasa pemrograman yang  dirancang untuk
+dijalankan di browser menggunakan JavaScript, Anda dapat membuat
+
+00:04:49.950 --> 00:04:55.710
+situs web Anda merespons masukan yang berbeda dari
+pengguna atau sumber lain, misalnya Anda dapat membuat
+
+00:04:55.710 --> 00:05:00.120
+tombol kembali ke atas yang ketika pengguna mengekliknya
+mereka akan menggulir kembali ke atas  halaman
+
+00:05:00.120 --> 00:05:07.530
+seperti yang kami sebutkan HTML CSS dan JavaScript adalah
+blok penyusun dasar pengembangan web front-end
+
+00:05:07.530 --> 00:05:13.950
+selain itu ada beberapa alat lain
+yang ingin Anda pelajari saat ini paket
+
+00:05:13.950 --> 00:05:18.990
+pengelola adalah kumpulan perangkat lunak online sebagian
+besar&nbsp; open source setiap bagian dari perangkat lunak yang disebut
+
+00:05:18.990 --> 00:05:24.030
+sebuah paket tersedia untuk Anda instal dan
+gunakan dalam proyek Anda sendiri. Anda dapat
+
+00:05:24.030 --> 00:05:28.530
+memikirkannya&nbsp;&nbsp; seperti plugin daripada menulis semuanya
+dari awal.  dapat menggunakan utilitas bermanfaat yang
+
+00:05:28.530 --> 00:05:33.270
+telah ditulis orang lain, misalnya
+Anda cukup menggunakan plug-in penggeser alih-alih
+
+00:05:33.270 --> 00:05:38.400
+harus mengkode semuanya sendiri yang dapat memakan waktu
+berhari-hari untuk mencari tahu mengapa menemukan kembali roda jika Anda
+
+00:05:38.400 --> 00:05:45.150
+tidak harus menggunakan yang paling populer  package manager
+disebut NPM atau node package manager Anda juga dapat
+
+00:05:45.150 --> 00:05:49.830
+menggunakan manajer lain yang disebut yarn keduanya merupakan
+opsi yang baik untuk diketahui dan digunakan meskipun mungkin yang
+
+00:05:49.830 --> 00:05:55.500
+terbaik untuk memulai dengan NPM selain package
+manager adalah Anda ingin mengenal
+
+00:05:55.500 --> 00:06:01.230
+alat build  modul bundler dan alat build adalah
+bagian penting lain dari alur kerja front-end
+
+00:06:01.230 --> 00:06:08.040
+pada tingkat dasar alat ini menjalankan tugas dan memproses
+file Anda dapat menggunakannya untuk mengompilasi file sass Anda
+
+00:06:08.040 --> 00:06:14.430
+ke CSS transpile file javascript es6 Anda
+ke es5 untuk menjalankan dukungan browser yang lebih baik
+
+00:06:14.430 --> 00:06:19.110
+server web&nbsp;&nbsp; lokal dan banyak tugas bermanfaat lainnya yang akan
+menghemat banyak kerumitan jika Anda mencoba melakukan semua
+
+00:06:19.110 --> 00:06:24.000
+langkah penting ini sendiri, tiga alat
+yang akan terus Anda c  banyak di antaranya
+
+00:06:24.000 --> 00:06:30.450
+gulp web pack and parcel secara pribadi Saya suka menggunakan
+gulp untuk alur kerja front-end saya sendiri di mana saya hanya
+
+00:06:30.450 --> 00:06:36.300
+ingin mengompilasi file sass dan JavaScript saya dan
+tidak melakukan terlalu banyak alat terakhir yang perlu
+
+00:06:36.300 --> 00:06:42.120
+Anda&nbsp;&nbsp; pelajari di  tahap ini adalah kontrol
+versi kontrol versi juga disebut kontrol sumber
+
+00:06:42.120 --> 00:06:46.020
+adalah sistem yang melacak setiap perubahan kode
+yang Anda buat dalam file proyek Anda bahkan dapat
+
+00:06:46.020 --> 00:06:50.610
+kembali ke rantai sebelumnya jika Anda membuat
+kesalahan hampir seperti memiliki titik penyimpanan tak terbatas untuk
+
+00:06:50.610 --> 00:06:56.580
+Anda  proyek dan izinkan saya memberi tahu Anda bahwa ini bisa menjadi
+penyelamat besar sistem kontrol versi paling populer
+
+00:06:56.580 --> 00:07:01.770
+adalah sistem sumber terbuka bernama git menggunakan git Anda
+dapat menyimpan semua file Anda dan kemudian mengubah riwayat
+
+00:07:01.770 --> 00:07:07.680
+dalam koleksi yang disebut repositori Anda mungkin juga
+pernah mendengar tentang github yang  sebuah perusahaan hosting online
+
+00:07:07.680 --> 00:07:14.820
+milik Microsoft tempat Anda dapat menyimpan
+semua repositori git Anda pada titik ini Anda telah
+
+00:07:14.820 --> 00:07:18.390
+mempelajari dasar-dasar pengembangan teman dan
+memiliki pilihan untuk mempelajarinya  untuk menambah
+
+00:07:18.390 --> 00:07:23.520
+keterampilan teman atau mempelajari tentang pengembangan web backend dasar
+dengan tambahan front-end ada
+
+00:07:23.520 --> 00:07:27.570
+beberapa keterampilan menengah lagi yang
+ingin Anda pelajari Saya sarankan Anda melihat
+
+00:07:27.570 --> 00:07:34.620
+desain responsif SAS berikut dan
+kerangka kerja JavaScript SAS adalah ekstensi dari CSS yang  membuat
+
+00:07:34.620 --> 00:07:40.740
+gaya penulisan lebih intuitif dan modular, ini adalah
+alat yang sangat kuat dengan sass Anda dapat
+
+00:07:40.740 --> 00:07:45.630
+membagi gaya Anda menjadi beberapa file untuk pengaturan yang lebih baik
+membuat variabel untuk menyimpan warna dan
+
+00:07:45.630 --> 00:07:51.750
+font serta menggunakan campuran dan placeholder untuk dengan mudah
+menggunakan kembali gaya meskipun Anda hanya menggunakan beberapa  dari
+
+00:07:51.750 --> 00:07:55.710
+fitur dasar seperti bersarang, Anda akan dapat
+menulis Gaya Anda lebih cepat dan dengan lebih sedikit pusing
+
+00:07:57.180 --> 00:08:03.300
+desain responsif memastikan bahwa penjualan Anda akan
+terlihat bagus di semua perangkat desktop, tablet dan
+
+00:08:03.300 --> 00:08:08.730
+ponsel, praktik inti dari
+desain&nbsp; responsif mencakup penggunaan ukuran fleksibel untuk elemen
+
+00:08:08.730 --> 00:08:15.300
+sebagai  serta memanfaatkan kueri media untuk menargetkan
+gaya untuk perangkat dan lebar tertentu, misalnya
+
+00:08:15.300 --> 00:08:20.880
+alih-alih menyetel konten Anda menjadi
+lebar&nbsp; 400 piksel statis, Anda dapat menggunakan kueri media dan
+
+00:08:20.880 --> 00:08:28.020
+menyetel&nbsp;&nbsp; konten menjadi lebar 50% di desktop dan 100%
+di seluler membuat situs web dengan CSS responsif
+
+00:08:28.020 --> 00:08:35.220
+adalah suatu keharusan akhir-akhir ini terutama karena lalu lintas
+seluler&nbsp; melampaui lalu lintas desktop dalam banyak kasus setelah
+
+00:08:35.220 --> 00:08:39.960
+Anda menguasai dasar-dasar JavaScript vanilla, Anda
+mungkin ingin mempelajari salah satu kerangka kerja JavaScript
+
+00:08:39.960 --> 00:08:44.670
+terutama jika Anda ingin menjadi
+pengembang JavaScript yang lengkap, kerangka kerja ini dilengkapi dengan
+
+00:08:44.670 --> 00:08:48.720
+struktur dan komponen yang telah dibuat sebelumnya yang memungkinkan
+Anda  untuk membuat aplikasi lebih cepat daripada jika Anda memulai
+
+00:08:48.720 --> 00:08:56.310
+dari awal, saat ini Anda memiliki tiga pilihan utama
+react angular dan view react yang secara
+
+00:08:56.310 --> 00:09:02.160
+teknis&nbsp;&nbsp; library dibuat oleh Facebook dan merupakan&nbsp; framework paling
+populer saat ini angular adalah
+
+00:09:02.160 --> 00:09:06.840
+framework besar pertama dan dibuat oleh Google  ini
+masih sangat populer meskipun telah dilampaui
+
+00:09:06.840 --> 00:09:13.140
+oleh reaksi baru-baru ini dan melihat kerangka kerja yang lebih baru yang
+dibuat oleh Evan Anda seorang mantan pengembang sudut
+
+00:09:13.140 --> 00:09:18.480
+baik itu berita dan reaksi yang lebih kecil dan sudut
+tumbuh dengan cepat dan juga dianggap mudah dan
+
+00:09:18.480 --> 00:09:25.290
+menyenangkan untuk digunakan Anda mungkin bertanya-tanya sekarang oke baik
+kerangka mana yang terbaik sebenarnya mereka
+
+00:09:25.290 --> 00:09:30.870
+semuanya bagus dan pengembangan web hampir tidak pernah
+ada&nbsp; pilihan tunggal yang  adalah 100% pilihan terbaik untuk
+
+00:09:30.870 --> 00:09:36.690
+setiap orang dalam setiap situasi, pilihan Anda
+kemungkinan besar akan ditentukan oleh pekerjaan Anda atau
+
+00:09:36.690 --> 00:09:42.630
+hanya&nbsp;&nbsp; mana yang paling Anda sukai jika tujuan akhir Anda
+adalah mendapatkan pekerjaan di perusahaan, coba
+
+00:09:42.630 --> 00:09:47.640
+teliti&nbsp;&nbsp; kerangka kerja mana yang tampaknya  untuk menjadi yang paling umum di
+listingan pekerjaan potensial jangan terlalu khawatir
+
+00:09:47.640 --> 00:09:52.050
+tentang&nbsp;&nbsp; kerangka kerja mana yang harus dipilih, yang lebih penting adalah
+Anda mempelajari dan memahami konsep di baliknya
+
+00:09:52.050 --> 00:09:57.570
+dan setelah Anda mempelajari satu kerangka kerja, akan jauh
+lebih mudah untuk mempelajari kerangka kerja lainnya setelah itu  mari kita
+
+00:09:57.570 --> 00:10:04.950
+lanjutkan&nbsp;&nbsp; sekarang ke bagian terakhir pengembangan web backend
+pengembangan web backend atau sisi server
+
+00:10:04.950 --> 00:10:09.960
+terdiri dari tiga komponen utama server
+bahasa pemrograman sisi server dan
+
+00:10:09.960 --> 00:10:14.610
+database seperti yang kami sebutkan di
+awal server adalah komputer tempat semua
+
+00:10:14.610 --> 00:10:20.280
+file situs web database dan komponen lainnya disimpan
+Server tradisional berjalan pada sistem operasi
+
+00:10:20.280 --> 00:10:26.220
+seperti Linux atau Windows mereka dianggap terpusat
+karena semua file situs web kode back-end
+
+00:10:26.220 --> 00:10:32.970
+dan data disimpan bersama-sama di server
+saat ini ada juga arsitektur tanpa server
+
+00:10:32.970 --> 00:10:38.610
+yang merupakan jenis penyiapan yang lebih terdesentralisasi,
+jenis aplikasi ini membagi komponen tersebut dan
+
+00:10:38.610 --> 00:10:43.470
+memanfaatkan vendor pihak ketiga untuk menangani masing
+-masing&nbsp; komponen tersebut terlepas dari namanya meskipun Anda masih
+
+00:10:43.470 --> 00:10:48.060
+perlu&nbsp; beberapa jenis server web untuk setidaknya
+menyimpan file situs web Anda beberapa contoh penyedia layanan
+
+00:10:48.060 --> 00:10:54.450
+adalah AWS Amazon Web Services atau meniadakan
+Penyiapan Cir furless populer karena
+
+00:10:54.450 --> 00:10:58.860
+cepat dan murah dan Anda tidak perlu khawatir tentang
+pemeliharaan server mereka bagus untuk
+
+00:10:58.860 --> 00:11:04.200
+situs web statis sederhana yang tidak memerlukan
+bahasa sisi server tradisional namun untuk aplikasi yang sangat kompleks
+
+00:11:04.200 --> 00:11:10.530
+ns penyiapan server tradisional mungkin
+merupakan opsi yang lebih baik di server Anda perlu menggunakan
+
+00:11:10.530 --> 00:11:15.120
+bahasa pemrograman untuk menulis fungsi
+dan logika untuk aplikasi Anda, server kemudian
+
+00:11:15.120 --> 00:11:20.520
+mengompilasi kode Anda dan menyampaikan hasilnya kembali
+ke klien bahasa pemrograman populer
+
+00:11:20.520 --> 00:11:28.080
+untuk web termasuk  PHP Python Ruby c-sharp dan Java
+juga ada bentuk server-side JavaScript
+
+00:11:28.080 --> 00:11:34.320
+node.js yang merupakan lingkungan runtime yang
+dapat menjalankan kode JavaScript di server akhirnya
+
+00:11:34.320 --> 00:11:39.870
+Anda harus mempelajari tentang database database
+sesuai dengan namanya.  Anda menyimpan informasi
+
+00:11:39.870 --> 00:11:46.290
+di&nbsp;&nbsp; server untuk situs web Anda, sebagian besar basis data menggunakan
+bahasa yang disebut SQL diucapkan sekuel yang merupakan
+
+00:11:46.290 --> 00:11:51.990
+singkatan dari bahasa kueri terstruktur dalam basis
+data. Data disimpan dalam tabel seperti
+
+00:11:51.990 --> 00:11:59.550
+dokumen Excel yang kompleks, lalu Anda dapat menulis kueri dalam SQL
+untuk membuat pembacaan  perbarui dan hapus data
+
+00:11:59.550 --> 00:12:04.200
+database&nbsp;&nbsp; dijalankan di server rapat server
+seperti server sekuel Microsoft di server Windows
+
+00:12:04.200 --> 00:12:10.500
+dan sekuel saya untuk Lin  ux juga tidak ada
+database sekuel yang menyimpan data dalam file JSON sebagai
+
+00:12:10.500 --> 00:12:16.480
+kebalikan dari tabel tradisional satu jenis database tanpa
+sekuel adalah MongoDB yang sering digunakan
+
+00:12:16.480 --> 00:12:22.930
+dengan reaksi sudut dan aplikasi tampilan beberapa
+contoh bagaimana data digunakan di situs web
+
+00:12:22.930 --> 00:12:27.550
+adalah jika Anda  memiliki formulir kontak di situs web
+Anda, Anda dapat membuat formulir sehingga setiap kali
+
+00:12:27.550 --> 00:12:33.070
+seseorang mengirimkan formulir, data mereka disimpan
+di database Anda, Anda juga dapat menyimpan login pengguna
+
+00:12:33.070 --> 00:12:37.150
+di database dan menulis logika dalam bahasa sisi server
+untuk menangani pemeriksaan dan  mengautentikasi
+
+00:12:37.150 --> 00:12:44.710
+login dan begitulah yang saya sarankan agar Anda memulai
+perjalanan Anda ke dalam pengembangan web. Saya telah
+
+00:12:44.710 --> 00:12:48.340
+mengumpulkan&nbsp;&nbsp; daftar referensi untuk membantu Anda memulai
+pembelajaran di salah satu tahap ini yang ditautkan di bawah
+
