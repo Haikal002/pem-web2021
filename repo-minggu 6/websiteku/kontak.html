@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Personal Website</title>
+    <style>
+        *{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        body{
+            background-image: url("image/bg7.jpg");
+        }
+        .navbar{
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+        }
+        .navbar a{
+            color: white;
+            padding: 12px;
+            font-size: 17px;
+            float: left;
+        }
+        .navbar a:hover{
+            background-color: tomato;
+            border-radius: 8px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a style="text-decoration: 0;" href="index.html"><img src="favicon-1.ico" alt=""> Home</a> 
+        <a style="text-decoration: 0;" href="Matematika Diskrit_A11.2020.12925_Haikal Alif Ramadhan.pdf">Download CV</a> 
+        <a style="text-decoration: 0;" href="kontak.html">Contact</a> 
+        <a style="text-decoration: 0;" href="tentang.html">About me</a>
+    </div>
+
+    <hr/>
+    <br>
+    <br>
+
+    <div style="margin-left: 25px;">
+        <h1>Kontak Saya</h1><br>
+        <form action="">
+            <label for="email">Email</label>
+            <br/>
+            <input type="email" name="email" placeholder="alamat email">
+            <br/><br>
+            <label for="message">Pesan</label>
+            <br/>
+            <textarea name="message" placeholder="Tulis pesan anda..." cols="80" rows="4"></textarea>
+            <br/>
+            <br/>
+            <input style="color: black;" type="submit" value="Kirim">
+        </form>
+    </div>
+
+    <footer style="bottom: 0; position: fixed; width: 100%; background-color: cadetblue;">
+        <hr>
+        <p style="text-align: center;">
+            Copyright &copy; 2020 Haikal Alif Ramadhan.
+        </p>
+    </footer>
+</body>
+</html>
